@@ -1,0 +1,26 @@
+<annotation>
+	<folder>hammer</folder>
+	<filename>img202.jpg</filename>
+	<path>/Users/divyansh/Programming/fyp/dataset-builder/content/validation/hammer/img202.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>499</width>
+		<height>274</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hammer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>44</ymin>
+			<xmax>476</xmax>
+			<ymax>238</ymax>
+		</bndbox>
+	</object>
+</annotation>

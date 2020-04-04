@@ -1,0 +1,26 @@
+<annotation>
+	<folder>hammer</folder>
+	<filename>img807.jpg</filename>
+	<path>/Users/utkarsh/dev/fyp/old_repo/dataset-builder/content/train/hammer/img807.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hammer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>1</difficult>
+		<bndbox>
+			<xmin>188</xmin>
+			<ymin>68</ymin>
+			<xmax>217</xmax>
+			<ymax>114</ymax>
+		</bndbox>
+	</object>
+</annotation>
