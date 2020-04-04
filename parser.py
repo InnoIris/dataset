@@ -27,7 +27,7 @@ with open('labels_train.csv', mode='w') as file:
       xmax = int(soup.xmax.string)
       ymin = int(soup.ymin.string)
       ymax = int(soup.ymax.string)
-      row = [filename_str, xmin, xmax, ymin, ymax, instruments.index(instrument)]
+      row = [filename_str, xmin, xmax, ymin, ymax, instruments.index(instrument) + 1]
       writer.writerow(row)
 
 folder = 'validation/'
@@ -52,5 +52,5 @@ with open('labels_val.csv', mode='w') as file:
       xmax = int(soup.xmax.string)
       ymin = int(soup.ymin.string)
       ymax = int(soup.ymax.string)
-      row = [filename_str, xmin, xmax, ymin, ymax, instruments.index(instrument)]
+      row = [filename_str, xmin, xmax, ymin, ymax, instruments.index(instrument) + 1]
       writer.writerow(row)
