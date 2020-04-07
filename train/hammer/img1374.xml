@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<annotation>
+   
+	
+   <folder>hammer</folder>
+   
+	
+   <filename>img1374.jpg</filename>
+   
+	
+   <path>/Users/divyansh/Programming/dataset/train/hammer/img1374.jpg</path>
+   
+	
+   <source>
+      
+		
+      <database>Unknown</database>
+      
+	
+   </source>
+   
+	
+   <size>
+      
+		
+      <width>499</width>
+      
+		
+      <height>333</height>
+      
+		
+      <depth>3</depth>
+      
+	
+   </size>
+   
+	
+   <segmented>0</segmented>
+   
+	
+   <object>
+      
+		
+      <name>hammer</name>
+      
+		
+      <pose>Unspecified</pose>
+      
+		
+      <truncated>0</truncated>
+      
+		
+      <difficult>0</difficult>
+      
+		
+      <bndbox>
+         
+			
+         <xmin>96</xmin>
+         
+			
+         <ymin>177</ymin>
+         
+			
+         <xmax>48</xmax>
+         
+			
+         <ymax>41</ymax>
+         
+		
+      </bndbox>
+      
+	
+   </object>
+   
+
+   <object>
+      <name>hammer</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>139</xmin>
+         <ymin>156</ymin>
+         <xmax>88</xmax>
+         <ymax>27</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>hammer</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>218</xmin>
+         <ymin>160</ymin>
+         <xmax>166</xmax>
+         <ymax>24</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>hammer</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>291</xmin>
+         <ymin>200</ymin>
+         <xmax>213</xmax>
+         <ymax>52</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>hammer</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>336</xmin>
+         <ymin>178</ymin>
+         <xmax>288</xmax>
+         <ymax>40</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>hammer</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>451</xmin>
+         <ymin>159</ymin>
+         <xmax>402</xmax>
+         <ymax>16</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>hammer</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>411</xmin>
+         <ymin>174</ymin>
+         <xmax>364</xmax>
+         <ymax>38</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>hammer</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>370</xmin>
+         <ymin>158</ymin>
+         <xmax>321</xmax>
+         <ymax>22</ymax>
+      </bndbox>
+   </object>
+</annotation>

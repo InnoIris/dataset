@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<annotation>
+   
+	
+   <folder>hammer</folder>
+   
+	
+   <filename>img1273.jpg</filename>
+   
+	
+   <path>/Users/divyansh/Programming/dataset/train/hammer/img1273.jpg</path>
+   
+	
+   <source>
+      
+		
+      <database>Unknown</database>
+      
+	
+   </source>
+   
+	
+   <size>
+      
+		
+      <width>500</width>
+      
+		
+      <height>375</height>
+      
+		
+      <depth>3</depth>
+      
+	
+   </size>
+   
+	
+   <segmented>0</segmented>
+   
+	
+   <object>
+      
+		
+      <name>hammer</name>
+      
+		
+      <pose>Unspecified</pose>
+      
+		
+      <truncated>0</truncated>
+      
+		
+      <difficult>0</difficult>
+      
+		
+      <bndbox>
+         
+			
+         <xmin>435</xmin>
+         
+			
+         <ymin>237</ymin>
+         
+			
+         <xmax>78</xmax>
+         
+			
+         <ymax>81</ymax>
+         
+		
+      </bndbox>
+      
+	
+   </object>
+   
+
+</annotation>

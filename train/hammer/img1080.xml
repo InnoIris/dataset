@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<annotation>
+   
+	
+   <folder>hammer</folder>
+   
+	
+   <filename>img1080.jpg</filename>
+   
+	
+   <path>/Users/divyansh/Programming/dataset/train/hammer/img1080.jpg</path>
+   
+	
+   <source>
+      
+		
+      <database>Unknown</database>
+      
+	
+   </source>
+   
+	
+   <size>
+      
+		
+      <width>500</width>
+      
+		
+      <height>244</height>
+      
+		
+      <depth>3</depth>
+      
+	
+   </size>
+   
+	
+   <segmented>0</segmented>
+   
+	
+   <object>
+      
+		
+      <name>hammer</name>
+      
+		
+      <pose>Unspecified</pose>
+      
+		
+      <truncated>0</truncated>
+      
+		
+      <difficult>0</difficult>
+      
+		
+      <bndbox>
+         
+			
+         <xmin>120</xmin>
+         
+			
+         <ymin>223</ymin>
+         
+			
+         <xmax>26</xmax>
+         
+			
+         <ymax>26</ymax>
+         
+		
+      </bndbox>
+      
+	
+   </object>
+   
+
+   <object>
+      <name>hammer</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>218</xmin>
+         <ymin>174</ymin>
+         <xmax>162</xmax>
+         <ymax>43</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>hammer</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>272</xmin>
+         <ymin>189</ymin>
+         <xmax>223</xmax>
+         <ymax>48</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>hammer</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>340</xmin>
+         <ymin>185</ymin>
+         <xmax>301</xmax>
+         <ymax>62</ymax>
+      </bndbox>
+   </object>
+   <object>
+      <name>hammer</name>
+      <pose>Unspecified</pose>
+      <truncated>0</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+         <xmin>156</xmin>
+         <ymin>166</ymin>
+         <xmax>112</xmax>
+         <ymax>49</ymax>
+      </bndbox>
+   </object>
+</annotation>
