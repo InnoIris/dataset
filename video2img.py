@@ -3,7 +3,7 @@ import argparse
 import os
 
 # Function to extract frames 
-def FrameCapture(path, threshold): 
+def FrameCapture(path, threshold, callbacks): 
 	
 	# Path to video file 
 	vidObj = cv2.VideoCapture(path) 
@@ -17,19 +17,27 @@ def FrameCapture(path, threshold):
 	while success: 
 		# Function extract frames 
 		success, image = vidObj.read()
+	
 		if success:
 			gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+			
+			for callback in callbacks:
+				image = callback(image)
+
 			#Filter to check for blurriness
 			fm = cv2.Laplacian(gray, cv2.CV_64F).var()
-			if fm < threshold:
-				pass
-			else:
-			# Saves the frames with frame-count 
-				if count%24==0:
-					name = "frame" + str(count) + ".jpg"
-					cv2.imwrite(os.path.join(os.getcwd(), "custom hammer dataset/" + name), image)
-
+			if fm >= threshold:
+				name = "frame" + str(count) + ".jpg"
+				cv2.imwrite(os.path.join(os.getcwd(), "custom hammer dataset/" + name), image)
 			count += 1
+			cv2.imshow("InnoIris", image)
+
+		# Code for terminating the window
+		key = cv2.waitKey(1) & 0xFF
+		if key == ord("q"):
+			vidObj.release()
+			cv2.destroyAllWindows()
+			break
 
 # Driver Code 
 def main():
