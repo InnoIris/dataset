@@ -11,7 +11,7 @@ with open('labels_train.csv', mode='w') as file:
   writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
   for instrument in instruments:
     directory_name = os.path.join(folder, instrument)
-    for filename in os.listdir(directory_name):
+    for filename in filter(lambda x: x.endswith(".jpg"), os.listdir(directory_name)):
       label = instrument
       filename_jpg = filename[:-4] + '.jpg'
       filename_xml = filename[:-4] + '.xml'
@@ -38,7 +38,7 @@ with open('labels_val.csv', mode='w') as file:
   writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
   for instrument in instruments:
     directory_name = os.path.join(folder, instrument)
-    for filename in os.listdir(directory_name):
+    for filename in filter(lambda x: x.endswith(".jpg"), os.listdir(directory_name)):
       label = instrument
       filename_jpg = filename[:-4] + '.jpg'
       filename_xml = filename[:-4] + '.xml'
