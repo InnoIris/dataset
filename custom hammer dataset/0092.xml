@@ -1,0 +1,26 @@
+<annotation>
+	<folder>custom hammer dataset</folder>
+	<filename>0092.jpg</filename>
+	<path>/Users/divyansh/Programming/dataset/custom hammer dataset/0092.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>352</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hammer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>170</xmin>
+			<ymin>121</ymin>
+			<xmax>218</xmax>
+			<ymax>213</ymax>
+		</bndbox>
+	</object>
+</annotation>
