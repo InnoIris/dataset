@@ -45,9 +45,9 @@ for index, row in train.iterrows():
     image_file_name = row['path'].split('/')[-1]
     xml_file_name = image_file_name.replace(".jpg", ".xml")
     # Copy the image
-    shutil.copy2(row['path'], os.path.join('train', className, f"custom_{image_file_name}"))
+    shutil.copy2(row['path'], os.path.join('train', className, f"{image_file_name}"))
     # Copy the corresponding XML file
-    shutil.copy2(row['path'].replace(".jpg", ".xml") , os.path.join('train', className, f"custom_{xml_file_name}"))
+    shutil.copy2(row['path'].replace(".jpg", ".xml") , os.path.join('train', className, f"{xml_file_name}"))
     print("Copy", row['path'], "to", 'train')
     train.at[index, 'path'] = os.path.join('train', className , image_file_name)
   except OSError as e:
@@ -61,9 +61,9 @@ for index, row in val.iterrows():
     image_file_name = row['path'].split('/')[-1]
     xml_file_name = image_file_name.replace(".jpg", ".xml")
     # Copy the image
-    shutil.copy2(row['path'], os.path.join('validation', className, f"custom_{image_file_name}"))
+    shutil.copy2(row['path'], os.path.join('validation', className, f"{image_file_name}"))
     # Copy the corresponding XML file
-    shutil.copy2(row['path'].replace(".jpg", ".xml") , os.path.join('validation', className, f"custom_{xml_file_name}"))
+    shutil.copy2(row['path'].replace(".jpg", ".xml") , os.path.join('validation', className, f"{xml_file_name}"))
     print("Copy", row['path'], "to", 'validation')
     val.at[index, 'path'] = os.path.join('validation', className , image_file_name)
   except OSError as e:
