@@ -56,16 +56,16 @@
       <bndbox>
          
 			
-         <xmin>275</xmin>
+         <xmin>83</xmin>
          
 			
-         <ymin>337</ymin>
+         <ymin>59</ymin>
          
 			
-         <xmax>83</xmax>
+         <xmax>275</xmax>
          
 			
-         <ymax>59</ymax>
+         <ymax>337</ymax>
          
 		
       </bndbox>

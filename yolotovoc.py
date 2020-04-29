@@ -43,10 +43,10 @@ try:
                         x1,y1,x2,y2 = conversion(line, width, height, img)
                         if idx==0:
                             root.find('object').find('name').text = classes[int(line[0])]
-                            root.find('object').find('bndbox').find('xmin').text = x1
-                            root.find('object').find('bndbox').find('ymin').text = y1
-                            root.find('object').find('bndbox').find('xmax').text = x2
-                            root.find('object').find('bndbox').find('ymax').text = y2
+                            root.find('object').find('bndbox').find('xmin').text = x2
+                            root.find('object').find('bndbox').find('ymin').text = y2
+                            root.find('object').find('bndbox').find('xmax').text = x1
+                            root.find('object').find('bndbox').find('ymax').text = y1
                         else:
                             root.append(root.makeelement('object',{}))
                             root[6+idx].append(root[6+idx].makeelement('name',{}))
@@ -59,13 +59,13 @@ try:
                             root[6+idx][3].text = '0'
                             root[6+idx].append(root[6+idx].makeelement('bndbox',{}))
                             root[6+idx][4].append(root[6+idx][4].makeelement('xmin',{}))
-                            root[6+idx][4][0].text = x1
+                            root[6+idx][4][0].text = x2
                             root[6+idx][4].append(root[6+idx][4].makeelement('ymin',{}))
-                            root[6+idx][4][1].text = y1
+                            root[6+idx][4][1].text = y2
                             root[6+idx][4].append(root[6+idx][4].makeelement('xmax',{}))
-                            root[6+idx][4][2].text = x2
+                            root[6+idx][4][2].text = x1
                             root[6+idx][4].append(root[6+idx][4].makeelement('ymax',{}))
-                            root[6+idx][4][3].text = y2
+                            root[6+idx][4][3].text = y1
                     xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
                     with open(os.path.join(dir_name,filename[:-4]+'.xml'), "w") as f:
                         f.write(xmlstr)
